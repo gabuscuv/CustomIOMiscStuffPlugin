@@ -15,7 +15,7 @@ struct FSaveData
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=MyCategory)
     TMap<uint8,bool> LastEventList;
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=MyCategory)
-    uint8 LoadingMode;
+    uint8 LoadingMode = 0;
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=MyCategory)
     float Currency = 2400.0f;
 };

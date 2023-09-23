@@ -11,10 +11,10 @@ struct FSubtitlesSettings
     GENERATED_USTRUCT_BODY()
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=MyCategory)
-    ESubtitleModes SubtitleMode;
+    ESubtitleModes SubtitleMode = ESubtitleModes::Off;
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=MyCategory)
-    float SubtitleSize;
+    float SubtitleSize = 24.0f;
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=MyCategory)
-    float SubtitleWidth;
+    float SubtitleWidth = 24.0f;
 
 };
