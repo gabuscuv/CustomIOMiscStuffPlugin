@@ -8,11 +8,11 @@ struct FHMDOffset
     GENERATED_USTRUCT_BODY()
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=MyCategory)
-    bool HMDEnabled;
+    bool HMDEnabled = false;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=MyCategory)
-    FVector HMDOffset;
+    FVector HMDOffset = FVector();
     
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=MyCategory)
-    FRotator HMDRotation;
+    FRotator HMDRotation = FRotator();
 };

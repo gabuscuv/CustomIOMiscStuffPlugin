@@ -12,13 +12,13 @@ struct FMovementSettings
     uint8 MovementMode = 0; // MovementMode (VRE Enum)
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=MyCategory)
-    ETurningMode TurningMode;
+    ETurningMode TurningMode = (ETurningMode)1;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=MyCategory)
-    float SmoothTurnSpeed = 0.0f;
+    float SmoothTurnSpeed = 45.0f;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=MyCategory)
-    float TurningSpeed = 0.0f;
+    float TurningSpeed = 45.0f;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=MyCategory)
     bool leftMode = false;
