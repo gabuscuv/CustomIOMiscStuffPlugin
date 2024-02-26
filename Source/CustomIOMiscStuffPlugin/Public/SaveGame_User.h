@@ -21,10 +21,10 @@ class CUSTOMIOMISCSTUFFPLUGIN_API USaveGame_User : public USaveGame
 	uint8 SlotId = 0;
 	
 	UPROPERTY(BlueprintReadWrite,EditAnywhere, Category=MyCategory)
-	FCustomAudioSettings AudioSettings;
+	FCustomAudioSettings AudioSettings = FCustomAudioSettings();
 	UPROPERTY(BlueprintReadWrite,EditAnywhere, Category=MyCategory)
-	FSubtitlesSettings SubtitlesSettings;
+	FSubtitlesSettings SubtitlesSettings = FSubtitlesSettings();
 	UPROPERTY(BlueprintReadWrite,EditAnywhere, Category=MyCategory)
-	FMovementSettings MovementSettings;
+	FMovementSettings MovementSettings = FMovementSettings();
 	
 };
