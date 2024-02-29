@@ -20,5 +20,8 @@ class CUSTOMIOMISCSTUFFPLUGIN_API USaveGame_System : public USaveGame
 	FCustomAudioSettings AudioSettings = FCustomAudioSettings();
 	UPROPERTY(BlueprintReadWrite,EditAnywhere, Category=MyCategory)
 	FSubtitlesSettings SubtitlesSettings = FSubtitlesSettings();
+
+	UPROPERTY(BlueprintReadWrite,EditAnywhere, Category=MyCategory)
+	int HighScore = 0;
 	
 };

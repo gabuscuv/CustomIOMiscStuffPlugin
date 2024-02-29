@@ -3,6 +3,9 @@
 #include "CoreMinimal.h"
 #include "MovementSettingsStruct.generated.h"
 
+enum class ETurningMode : uint8;
+
+
 USTRUCT(BlueprintType)
 struct FMovementSettings
 {
